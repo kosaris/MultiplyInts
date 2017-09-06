@@ -15,16 +15,12 @@ int multiply(int a, int b) {
 
   while (b > 0) {
     if (b & 1) {
-      if (is_positive) {
-        sum += (a << count);
-      } else {
-        sum -= (a << count);
-      }
+      sum += (a << count);
     }
     count++;
     b = (b >> 1);
   }
-  return sum;
+  return (is_positive? sum : getTwosCompliment(sum));
 }
 
 
