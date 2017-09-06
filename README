@@ -1,0 +1,24 @@
+#MultiplyInts
+Multiply two ints without using multiplication
+
+requires Gmock/Gtest
+mkdir build
+cd build
+cmake ..
+make
+
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from MultiplyInts
+[ RUN      ] MultiplyInts.PositiveNumbers
+[       OK ] MultiplyInts.PositiveNumbers (0 ms)
+[ RUN      ] MultiplyInts.NegativeNumbers
+[       OK ] MultiplyInts.NegativeNumbers (1 ms)
+[ RUN      ] MultiplyInts.ZeroNumbers
+[       OK ] MultiplyInts.ZeroNumbers (0 ms)
+[----------] 3 tests from MultiplyInts (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 3 tests.
+
